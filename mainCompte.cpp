@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     compte janick(65136);
-    janick.crediter(2000.0);
+    janick.crediter(1800.0);
     cout << "solde du compte janick : " << janick.getSolde() << endl;
     if (janick.debiter(1000.0)) {
         cout << "debit autorise" << endl;
